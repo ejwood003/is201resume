@@ -102,11 +102,11 @@ iframe{
     border: 5px solid rgb(14, 0, 56);
     padding: 5px;
     background-color: lightblue;
-    position: absolute;
+    /* position: absolute;
     top: 170px;
     right: 580px;
-    left: 580px;
-    text-align: center;
+    left: 580px;*/
+    text-align: center; 
 }
 .imgtext{
     text-align: center;
