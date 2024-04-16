@@ -1,0 +1,115 @@
+body {
+    background-color: darkgrey;
+    color: black;
+    /*text color*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-family: cursive;
+    text-align: center;
+    font-size: 40pt;
+    font-weight: bolder;
+}
+
+h5 {
+    text-align: center;
+    font-style: italic;
+    font-size: 16pt;
+    background-color: lightblue;
+    opacity: 80%;
+
+
+}
+
+a {
+    color: blue;
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+img {
+    border: 5px solid royalblue;
+    padding: 3px;
+    margin: 20px;
+    /*centers stuff*/
+    display: block;
+    margin: auto;
+}
+
+.imgcenter {
+    display: block;
+    margin: auto;
+}
+iframe{
+    border: 5px solid royalblue;
+    padding: 3px;
+    margin: 8px;
+    /*centers stuff*/
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+.headerbox{
+    color: lightblue;
+    border: 5px solid royalblue;
+    padding: 5px;
+    background-color: rgb(14, 0, 56);
+    font-size: 20pt;
+    font-family: 'Times New Roman', Times, serif
+}
+.intro{
+    text-align: center;
+}
+.common{
+    position: absolute;
+}
+.bottom{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    font-style: italic;
+    font-size: small;
+    background-color: slategray;
+}
+.top{
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+}
+.content{
+    position: relative;
+    top: 100px;
+    left: 0px;
+    right: 0px;
+    height: 100%;
+
+}
+.backtotop{
+    z-index: 1;
+    bottom: 0px;
+}
+.headerstrip{
+    position: relative;
+    top: -20px;
+}
+.nav{
+    border: 5px solid rgb(14, 0, 56);
+    padding: 5px;
+    background-color: lightblue;
+    position: absolute;
+    top: 170px;
+    right: 580px;
+    left: 580px;
+    text-align: center;
+}
+.imgtext{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
